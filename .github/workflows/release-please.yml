@@ -31,9 +31,9 @@ jobs:
             console.log(`PR Title: ${prTitle}`);
             const prAuthor = context.payload.pull_request.user.login;
             console.log(`PR Author: ${prAuthor}`);
-            const isReleasePlease = prAuthor === 'release-please[bot]';
             const prHead = context.payload.pull_request.head.ref;
             console.log(`PR Head: ${prHead}`);
+            const isReleasePlease = prHead.startsWith('release-please')
             core.setOutput('is-release-please', isReleasePlease);
             
       - name: Handle release-please merge
