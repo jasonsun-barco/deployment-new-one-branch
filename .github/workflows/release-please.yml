@@ -1,0 +1,43 @@
+name: Release Please
+
+on:
+  push:
+    branches: [develop]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: windows-latest
+    steps:
+      # - name: Release Please on develop
+      #   uses: googleapis/release-please-action@v4
+      #   with:
+      #     release-type: node
+      #     token: ${{ secrets.MY_RELESE_PLEASE_TOKEN }}
+      #     target-branch: develop
+      - name: Check if PR is merged and from release-please
+        id: check-pr
+        if: github.event.pull_request.merged == true
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const prTitle = context.payload.pull_request.title;
+            const prAuthor = context.payload.pull_request.user.login;
+            const isReleasePlease = /^chore\(release\):.*/.test(prTitle) && prAuthor === 'release-please[bot]';
+            core.setOutput('is-release-please', isReleasePlease);
+            
+      - name: Handle release-please merge
+        if: steps.check-pr.outputs.is-release-please == 'true'
+        run: |
+          echo "RELEASE TO QA"
+
+          
+      - name: Handle regular merge
+        if: steps.check-pr.outputs.is-release-please == 'false'
+        run: |
+          echo "RELEASE TO DEV"
+
+

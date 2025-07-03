@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  push:
+    branches: [master, develop, release]
+  pull_request:
+    branches: [master, develop, release]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Copy src to dist
+        run: |
+          mkdir -p dist
+          cp -r src/* dist/
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Run installer script
+        run: bash ./scripts/run.sh
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
