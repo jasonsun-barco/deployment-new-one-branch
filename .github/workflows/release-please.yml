@@ -28,7 +28,9 @@ jobs:
         with:
           script: |
             const prTitle = context.payload.pull_request.title;
+            console.log(`PR Title: ${prTitle}`);
             const prAuthor = context.payload.pull_request.user.login;
+            console.log(`PR Author: ${prAuthor}`);
             const isReleasePlease = prAuthor === 'release-please[bot]';
             core.setOutput('is-release-please', isReleasePlease);
             
