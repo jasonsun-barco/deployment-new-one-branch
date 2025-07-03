@@ -3,6 +3,9 @@ name: Release Please
 on:
   push:
     branches: [develop]
+  pull_request:
+    types: [closed]
+    branches: [develop]
 
 permissions:
   contents: write
@@ -26,7 +29,7 @@ jobs:
           script: |
             const prTitle = context.payload.pull_request.title;
             const prAuthor = context.payload.pull_request.user.login;
-            const isReleasePlease = /^chore\(release\):.*/.test(prTitle) && prAuthor === 'release-please[bot]';
+            const isReleasePlease = prAuthor === 'release-please[bot]';
             core.setOutput('is-release-please', isReleasePlease);
             
       - name: Handle release-please merge
