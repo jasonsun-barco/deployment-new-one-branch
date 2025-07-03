@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0 (2025-07-03)
+
+
+### Features
+
+* feat 3 ([6e563f0](https://github.com/robinat4am/deployment-new-one-branch/commit/6e563f003957354233061e7d8c0aeacee7b13eab))
+* feat 3 ([82e7ffe](https://github.com/robinat4am/deployment-new-one-branch/commit/82e7ffe66237b9bc727ca74db64640941931c558))
+* feat2 ([2ab6285](https://github.com/robinat4am/deployment-new-one-branch/commit/2ab6285c951824a7b0cd25c58e83dfd76228cb5f))
+* feat2 ([f1220f8](https://github.com/robinat4am/deployment-new-one-branch/commit/f1220f8c3628673adf0abcf7416e2a918ae7ad50))
+* test1 ([fca8b0d](https://github.com/robinat4am/deployment-new-one-branch/commit/fca8b0dd44d75cc2cf22a34fb5d771fc99d32420))
+* test1 ([791e57f](https://github.com/robinat4am/deployment-new-one-branch/commit/791e57f1f87eb35617f2896b9f288373c77b66a2))
+
 ## [1.5.0](https://github.com/robinat4am/deployment-new/compare/v1.4.0...v1.5.0) (2025-07-01)
 
 
