@@ -43,4 +43,12 @@ jobs:
         run: |
           echo "RELEASE TO DEV"
 
+      - name: Release Please on develop
+        if: steps.check-pr.outputs.is-release-please == 'false'
+        uses: googleapis/release-please-action@v4
+        with:
+          release-type: node
+          token: ${{ secrets.MY_RELESE_PLEASE_TOKEN }}
+          target-branch: develop
+
 
