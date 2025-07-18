@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/robinat4am/deployment-new-one-branch/compare/v2.1.0...v2.2.0) (2025-07-18)
+
+
+### Features
+
+* release after 2.1.0 ([b32cf3d](https://github.com/robinat4am/deployment-new-one-branch/commit/b32cf3d4aaf918187b1d711c77a65e83f9e4b750))
+
 ## [2.1.0](https://github.com/robinat4am/deployment-new-one-branch/compare/v1.5.0...v2.1.0) (2025-07-18)
 
 
