@@ -1,5 +1,37 @@
 # Changelog
 
+## [2.1.0](https://github.com/robinat4am/deployment-new-one-branch/compare/v1.5.0...v2.1.0) (2025-07-18)
+
+
+### Features
+
+* feat 3 ([6e563f0](https://github.com/robinat4am/deployment-new-one-branch/commit/6e563f003957354233061e7d8c0aeacee7b13eab))
+* feat 3 ([82e7ffe](https://github.com/robinat4am/deployment-new-one-branch/commit/82e7ffe66237b9bc727ca74db64640941931c558))
+* feat 4 ([f929dba](https://github.com/robinat4am/deployment-new-one-branch/commit/f929dbad4b2fe425c55ec48014afabae15b8436b))
+* feat 4 ([8a87968](https://github.com/robinat4am/deployment-new-one-branch/commit/8a87968b5bc11583e69dd0b72f387ce8955f55a6))
+* feat 5 ([e25559c](https://github.com/robinat4am/deployment-new-one-branch/commit/e25559c1cc7ca95fa04965f27a2303165a3f3a6e))
+* feat 5 ([ec4fa81](https://github.com/robinat4am/deployment-new-one-branch/commit/ec4fa8147aed5e77e50e5def79bd79ab38c5a65d))
+* feat 5 ([9ebf646](https://github.com/robinat4am/deployment-new-one-branch/commit/9ebf646a5c8822338ef1d6b5f6c74f5d5133e043))
+* feat 6 ([56ce90b](https://github.com/robinat4am/deployment-new-one-branch/commit/56ce90ba0aa603efb224a04f2d5196fdb67ba1ea))
+* feat 6 ([19494db](https://github.com/robinat4am/deployment-new-one-branch/commit/19494db7c197fc695d32f76406e2d6543ab9ad5d))
+* feat 6 ([e740a38](https://github.com/robinat4am/deployment-new-one-branch/commit/e740a385e07a669ac3131da8efd52c21f386d702))
+* feat 7 ([c93cdae](https://github.com/robinat4am/deployment-new-one-branch/commit/c93cdaebefe2f3f3b116be59731f23301bfd27a2))
+* feat 7 ([5b24b62](https://github.com/robinat4am/deployment-new-one-branch/commit/5b24b626a413fc710295bbe76fcdd73f80075c9c))
+* feat 7 ([8a00cf5](https://github.com/robinat4am/deployment-new-one-branch/commit/8a00cf5243452322f45e9c87af22a4f210e8a9e7))
+* feat 8 ([7599c76](https://github.com/robinat4am/deployment-new-one-branch/commit/7599c76cf470e70cf823f4f27f533b13422caae0))
+* feat 8 ([46463a9](https://github.com/robinat4am/deployment-new-one-branch/commit/46463a9eaafeb73eb86ffa378575539c22e53ff1))
+* feat 8 ([be5e5ed](https://github.com/robinat4am/deployment-new-one-branch/commit/be5e5edd357c1fbd516c6344fa697bada9dda3ea))
+* feat2 ([2ab6285](https://github.com/robinat4am/deployment-new-one-branch/commit/2ab6285c951824a7b0cd25c58e83dfd76228cb5f))
+* feat2 ([f1220f8](https://github.com/robinat4am/deployment-new-one-branch/commit/f1220f8c3628673adf0abcf7416e2a918ae7ad50))
+* feat7 ([5e257ce](https://github.com/robinat4am/deployment-new-one-branch/commit/5e257ceec9ffd47dd696eb6071327c646b48360b))
+* test1 ([fca8b0d](https://github.com/robinat4am/deployment-new-one-branch/commit/fca8b0dd44d75cc2cf22a34fb5d771fc99d32420))
+* test1 ([791e57f](https://github.com/robinat4am/deployment-new-one-branch/commit/791e57f1f87eb35617f2896b9f288373c77b66a2))
+
+
+### Miscellaneous Chores
+
+* rlease 2.1.0 ([141c5a2](https://github.com/robinat4am/deployment-new-one-branch/commit/141c5a2230a8b68d9281af519ccef886b00cb714))
+
 ## [1.5.0](https://github.com/robinat4am/deployment-new-one-branch/compare/v1.4.0...v1.5.0) (2025-07-03)
 
 
