@@ -4,7 +4,9 @@
     ".": {
       "changelog-path": "CHANGELOG.md",
       "release-type": "node",
-      "initial-version": "0.0.7",
+      "versioning": "prerelease",
+      "prerelease-type": "rc",
+      "initial-version": "0.0.1-rc.1",
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
