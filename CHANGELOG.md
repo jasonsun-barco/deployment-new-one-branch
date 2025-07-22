@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v2.2.1...v0.1.0-rc) (2025-07-22)
+
+
+### Miscellaneous Chores
+
+* release 0.1.0 ([bd0ba49](https://github.com/robinat4am/deployment-new-one-branch/commit/bd0ba49f122bc4cb565812ab8364aabb837ab086))
+* release 0.1.0-rc ([ca38e9c](https://github.com/robinat4am/deployment-new-one-branch/commit/ca38e9c58a6860dc62bbe2530dc5f29bf16a87ec))
+
 ## [2.2.1](https://github.com/robinat4am/deployment-new-one-branch/compare/v2.2.0...v2.2.1) (2025-07-18)
 
 
