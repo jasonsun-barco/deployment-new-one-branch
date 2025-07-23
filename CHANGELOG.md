@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.1.0-rc...v0.2.0-rc) (2025-07-23)
+
+
+### Features
+
+* change versioning to default ([b29847b](https://github.com/robinat4am/deployment-new-one-branch/commit/b29847bc87d252800a741df655583b2862fdf1c6))
+* change versioning to default ([707ff90](https://github.com/robinat4am/deployment-new-one-branch/commit/707ff90b16c9d4c206e301285b47905e9d92fa12))
+* reset versioning to prerelease ([0a47ca1](https://github.com/robinat4am/deployment-new-one-branch/commit/0a47ca199852c58a58601c98a22e873a2eb37afa))
+* reset versioning to prerelease ([aff2f20](https://github.com/robinat4am/deployment-new-one-branch/commit/aff2f20bedcb64a0b9872415ff096f71e7035794))
+* try set bump minor false ([061812f](https://github.com/robinat4am/deployment-new-one-branch/commit/061812fd298583d1500210b2b3bb26bbc70cbe21))
+* try set bump minor false ([7826d61](https://github.com/robinat4am/deployment-new-one-branch/commit/7826d61b51745bfb60715608b0201de4d38aee26))
+* version bump test ([d408d47](https://github.com/robinat4am/deployment-new-one-branch/commit/d408d47de7889f53c694962031ee7d38e127586b))
+* version bump test ([f3725ea](https://github.com/robinat4am/deployment-new-one-branch/commit/f3725ea0484b234644143764c14d973a727fc90f))
+
 ## [0.1.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v2.2.1...v0.1.0-rc) (2025-07-22)
 
 
