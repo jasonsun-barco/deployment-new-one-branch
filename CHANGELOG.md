@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.3.0-rc...v0.4.0-rc) (2025-07-23)
+
+
+### Features
+
+* change version to patch bump ([ba5d1e9](https://github.com/robinat4am/deployment-new-one-branch/commit/ba5d1e99f01c450db53de2594cc670aed2c0ec87))
+* change version to patch bump ([333c9b3](https://github.com/robinat4am/deployment-new-one-branch/commit/333c9b3420af97568b18c7326b17d3f88890b65f))
+* try feat again ([8cf6dea](https://github.com/robinat4am/deployment-new-one-branch/commit/8cf6dea827ff3524919f2a8146bfd23f43549856))
+* try feat again ([56a2730](https://github.com/robinat4am/deployment-new-one-branch/commit/56a2730e87f2763c10d44feadcf1115933ef83cc))
+
 ## [0.3.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.2.1-rc...v0.3.0-rc) (2025-07-23)
 
 
