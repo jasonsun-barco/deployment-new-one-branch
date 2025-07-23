@@ -6,6 +6,7 @@
       "release-type": "node",
       "versioning": "prerelease",
       "prerelease-type": "rc",
+      "initial-version": "0.0.1-rc.1",
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
