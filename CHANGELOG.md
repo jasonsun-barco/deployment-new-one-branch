@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.2.1-rc...v0.3.0-rc) (2025-07-23)
+
+
+### Features
+
+* try feat ([9acf00e](https://github.com/robinat4am/deployment-new-one-branch/commit/9acf00e8df69fb548ff53301d7a7c1ee88da8c35))
+
 ## [0.2.1-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.2.0-rc...v0.2.1-rc) (2025-07-23)
 
 
