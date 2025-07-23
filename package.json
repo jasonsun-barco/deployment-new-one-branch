@@ -1,6 +1,6 @@
 {
   "name": "my-typescript-project",
-  "version": "0.2.0-rc",
+  "version": "0.2.1-rc",
   "description": "A TypeScript project.",
   "main": "dist/index.js",
   "scripts": {

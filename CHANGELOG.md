@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.2.0-rc...v0.2.1-rc) (2025-07-23)
+
+
+### Bug Fixes
+
+* modify inital version ([f6bb503](https://github.com/robinat4am/deployment-new-one-branch/commit/f6bb503a612c4f5adad8017c55a2195ce6de3c81))
+* modify inital version ([5725ec9](https://github.com/robinat4am/deployment-new-one-branch/commit/5725ec9d5816112820de70f0ce7bcb944361f301))
+
 ## [0.2.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.1.0-rc...v0.2.0-rc) (2025-07-23)
 
 
