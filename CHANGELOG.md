@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.5.0-rc...v0.6.0-rc) (2025-07-23)
+
+
+### Features
+
+* try with prerelease version ([250103c](https://github.com/robinat4am/deployment-new-one-branch/commit/250103ce8496fdb84fb7678237edc0a454b5afd6))
+* try with prerelease version ([4d70a88](https://github.com/robinat4am/deployment-new-one-branch/commit/4d70a88abd5d7ed1ff566fad60bb16477f747580))
+
 ## [0.5.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.4.0-rc...v0.5.0-rc) (2025-07-23)
 
 
