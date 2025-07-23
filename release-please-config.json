@@ -4,13 +4,13 @@
     ".": {
       "changelog-path": "CHANGELOG.md",
       "release-type": "node",
-      "versioning": "default",
+      "versioning": "prerelease",
       "prerelease-type": "rc",
       "initial-version": "0.0.1-rc.1",
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
-      "prerelease": false,
+      "prerelease": true,
       "include-component-in-tag": false
     }
   }
