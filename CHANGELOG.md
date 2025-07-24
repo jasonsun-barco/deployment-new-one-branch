@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0-rc.7](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.6...v0.1.0-rc.7) (2025-07-24)
+
+
+### Bug Fixes
+
+* add release trigger condition ([340aa13](https://github.com/JasonSun0593/deployment-new-one-branch/commit/340aa132bc59d828c33cb4557e0f4ab2b9bbaa7b))
+
 ## [0.1.0-rc.6](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.5...v0.1.0-rc.6) (2025-07-24)
 
 
