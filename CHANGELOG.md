@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0-rc.6](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.5...v0.1.0-rc.6) (2025-07-24)
+
+
+### Bug Fixes
+
+* change final release trigger condition ([dd62c66](https://github.com/JasonSun0593/deployment-new-one-branch/commit/dd62c66e4eaf3c6a0bc3109455bd37422f9d5ff3))
+* change final release trigger condition ([da47c4c](https://github.com/JasonSun0593/deployment-new-one-branch/commit/da47c4ccac50c433379ee7c322199403e9a043f9))
+
 ## [0.1.0-rc.5](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.4...v0.1.0-rc.5) (2025-07-24)
 
 
