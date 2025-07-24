@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.7.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.6.0-rc...v0.7.0-rc) (2025-07-24)
+
+
+### Features
+
+* configure alpha branch for alpha releases ([93841ed](https://github.com/robinat4am/deployment-new-one-branch/commit/93841ed20d2062d4f4dfc858999340332b461281))
+* enable alpha releases with proper alpha suffix ([981310f](https://github.com/robinat4am/deployment-new-one-branch/commit/981310ffc1347354516dfa87447124088619332b))
+* try commit ([8ea6c26](https://github.com/robinat4am/deployment-new-one-branch/commit/8ea6c268acb07dbe6123c90696d89932a769c1e3))
+* try commit ([27a56e8](https://github.com/robinat4am/deployment-new-one-branch/commit/27a56e83d617ed45ce2557485fa90660b3a7d839))
+* try push to alpha ([a8a0761](https://github.com/robinat4am/deployment-new-one-branch/commit/a8a076163b851794bbe8469fd165e71369b63e44))
+* try push to alpha ([c60e8ca](https://github.com/robinat4am/deployment-new-one-branch/commit/c60e8ca747b57803206cfbb7b03fb85f332f6647))
+
+
+### Bug Fixes
+
+* set init ver with rc.1 suffix ([6ed0dfe](https://github.com/robinat4am/deployment-new-one-branch/commit/6ed0dfe5a22d9cb38c8d287f610a4bdbd1ae7de5))
+* set init ver with rc.1 suffix ([590cf6d](https://github.com/robinat4am/deployment-new-one-branch/commit/590cf6d409ec4c2588cc281c82f194ae6a9dd0d2))
+
 ## [0.6.0-rc](https://github.com/robinat4am/deployment-new-one-branch/compare/v0.5.0-rc...v0.6.0-rc) (2025-07-23)
 
 
