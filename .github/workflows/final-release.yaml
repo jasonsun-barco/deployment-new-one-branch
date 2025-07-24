@@ -1,19 +1,8 @@
 name: Final Release
 
 on:
-  # Trigger when a workflow is completed (after RC is created)
-  workflow_run:
-    workflows: ["Release"]
-    types: [completed]
-    branches: [develop]
-  
-  # Also allow manual trigger for testing
-  workflow_dispatch:
-    inputs:
-      rc_tag:
-        description: 'RC tag to promote to final release'
-        required: true
-        type: string
+  release:
+    types: [published,prereleased,created,released]
 
 # The different jobs of this workflow need the following permissions
 permissions:
