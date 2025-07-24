@@ -89,6 +89,7 @@ jobs:
               echo "RELEASE TO ALPHA TESTING"
               ;;
           esac
+        shell: bash      
 
       - name: Handle regular merge
         if: steps.check-pr.outputs.is-release-please == 'false'
@@ -108,6 +109,7 @@ jobs:
               echo "DEPLOY TO ALPHA ENV"
               ;;
           esac
+        shell: bash      
 
       - name: Release Please
         uses: googleapis/release-please-action@v4
