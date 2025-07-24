@@ -6,7 +6,7 @@
       "release-type": "node",
       "versioning": "prerelease",
       "prerelease-type": "beta",
-      "initial-version": "0.0.1-beta.1",
+      "initial-version": "1.6.0-beta.1",
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
       "draft": false,

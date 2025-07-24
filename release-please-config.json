@@ -4,11 +4,12 @@
     ".": {
       "changelog-path": "CHANGELOG.md",
       "release-type": "node",
-      "versioning": "default",
-      "initial-version": "0.0.1",
+      "versioning": "prerelease",
+      "prerelease-type": "alpha",
+      "initial-version": "1.6.0-alpha.1",
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
-      "draft": false,
+      "draft": true,
       "prerelease": true,
       "include-component-in-tag": false
     }
