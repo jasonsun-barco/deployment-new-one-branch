@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0-rc.2](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.1...v0.1.0-rc.2) (2025-07-24)
+
+
+### Bug Fixes
+
+* change prerelease property in release config ([7fe9422](https://github.com/JasonSun0593/deployment-new-one-branch/commit/7fe9422f9d18704b814789fe72302a405ca5efed))
+* change prerelease property in release config ([b89ea66](https://github.com/JasonSun0593/deployment-new-one-branch/commit/b89ea66d569f850365cb06b103e00e3c6c0abb7e))
+
 ## [0.1.0-rc.1](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc...v0.1.0-rc.1) (2025-07-24)
 
 
