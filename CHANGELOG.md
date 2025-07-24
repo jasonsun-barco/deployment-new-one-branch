@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0-rc.4](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.3...v0.1.0-rc.4) (2025-07-24)
+
+
+### Features
+
+* seperate rc and final release workflow ([6143467](https://github.com/JasonSun0593/deployment-new-one-branch/commit/6143467c7e06cad672e1c19b0356b0c51a450fc6))
+* seperate rc and final release workflow ([361b197](https://github.com/JasonSun0593/deployment-new-one-branch/commit/361b197b802bc4ca9ffd4bf1e1e8d945313174fd))
+
 ## [0.1.0-rc.3](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.2...v0.1.0-rc.3) (2025-07-24)
 
 
