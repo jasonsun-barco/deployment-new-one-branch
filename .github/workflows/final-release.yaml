@@ -2,7 +2,7 @@ name: Final Release
 
 on:
   release:
-    types: [published,pre-released,created,released]
+    types: [published,prereleased,created,released]
 
 # The different jobs of this workflow need the following permissions
 permissions:
