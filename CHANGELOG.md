@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0-rc.8](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.7...v0.1.0-rc.8) (2025-07-24)
+
+
+### Bug Fixes
+
+* change trigger condition for final release ([b9a0a6a](https://github.com/JasonSun0593/deployment-new-one-branch/commit/b9a0a6adeb57e62f573fba14f4fc692fe5dc6b08))
+* change trigger condition for final release ([a075258](https://github.com/JasonSun0593/deployment-new-one-branch/commit/a0752582ef7de62f432d5379a9c443441bf7dbf1))
+
 ## [0.1.0-rc.7](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.6...v0.1.0-rc.7) (2025-07-24)
 
 
