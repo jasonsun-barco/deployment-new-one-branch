@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0-rc.5](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.4...v0.1.0-rc.5) (2025-07-24)
+
+
+### Bug Fixes
+
+* change event type to trigger final release ([4edd73e](https://github.com/JasonSun0593/deployment-new-one-branch/commit/4edd73eb3b86817093963bffca90aa3184c7ebf3))
+* change event type to trigger final release ([8cc8e04](https://github.com/JasonSun0593/deployment-new-one-branch/commit/8cc8e04bbef73ec45748b3a8ff791d9be131b78c))
+
 ## [0.1.0-rc.4](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.3...v0.1.0-rc.4) (2025-07-24)
 
 
