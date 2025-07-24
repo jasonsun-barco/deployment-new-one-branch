@@ -3,7 +3,7 @@ name: Final Release
 on:
   # Trigger when a prerelease (RC) is published
   release:
-    types: [released]
+    types: [created, published]
 
 # The different jobs of this workflow need the following permissions
 permissions:
