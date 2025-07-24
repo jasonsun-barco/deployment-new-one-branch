@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.1.0-rc.1](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc...v0.1.0-rc.1) (2025-07-24)
+
+
+### Features
+
+* add double manifest and config ([294c12c](https://github.com/JasonSun0593/deployment-new-one-branch/commit/294c12cec067c6c20fbf002e3a4aa7f92cf33590))
+* add double manifest and config ([8fa9b0c](https://github.com/JasonSun0593/deployment-new-one-branch/commit/8fa9b0c7b9f0a041fdbfdf49df3fff0305b17e78))
+* change version to patch bump ([ba5d1e9](https://github.com/JasonSun0593/deployment-new-one-branch/commit/ba5d1e99f01c450db53de2594cc670aed2c0ec87))
+* change version to patch bump ([333c9b3](https://github.com/JasonSun0593/deployment-new-one-branch/commit/333c9b3420af97568b18c7326b17d3f88890b65f))
+* change versioning to default ([b29847b](https://github.com/JasonSun0593/deployment-new-one-branch/commit/b29847bc87d252800a741df655583b2862fdf1c6))
+* change versioning to default ([707ff90](https://github.com/JasonSun0593/deployment-new-one-branch/commit/707ff90b16c9d4c206e301285b47905e9d92fa12))
+* reset versioning to prerelease ([0a47ca1](https://github.com/JasonSun0593/deployment-new-one-branch/commit/0a47ca199852c58a58601c98a22e873a2eb37afa))
+* reset versioning to prerelease ([aff2f20](https://github.com/JasonSun0593/deployment-new-one-branch/commit/aff2f20bedcb64a0b9872415ff096f71e7035794))
+* try feat ([9acf00e](https://github.com/JasonSun0593/deployment-new-one-branch/commit/9acf00e8df69fb548ff53301d7a7c1ee88da8c35))
+* try feat ([49cada7](https://github.com/JasonSun0593/deployment-new-one-branch/commit/49cada7c5f257267a96c1eaa96a1ea85101f92ef))
+* try feat again ([8cf6dea](https://github.com/JasonSun0593/deployment-new-one-branch/commit/8cf6dea827ff3524919f2a8146bfd23f43549856))
+* try feat again ([56a2730](https://github.com/JasonSun0593/deployment-new-one-branch/commit/56a2730e87f2763c10d44feadcf1115933ef83cc))
+* try not use prerelease ([0d213c4](https://github.com/JasonSun0593/deployment-new-one-branch/commit/0d213c4a42c9b513f0d05125d9e1b81f5ce8ddff))
+* try not use prerelease ([b243988](https://github.com/JasonSun0593/deployment-new-one-branch/commit/b24398839b1442ff293d25ca4f5558fc21173c94))
+* try set bump minor false ([061812f](https://github.com/JasonSun0593/deployment-new-one-branch/commit/061812fd298583d1500210b2b3bb26bbc70cbe21))
+* try set bump minor false ([7826d61](https://github.com/JasonSun0593/deployment-new-one-branch/commit/7826d61b51745bfb60715608b0201de4d38aee26))
+* try with prerelease version ([250103c](https://github.com/JasonSun0593/deployment-new-one-branch/commit/250103ce8496fdb84fb7678237edc0a454b5afd6))
+* try with prerelease version ([4d70a88](https://github.com/JasonSun0593/deployment-new-one-branch/commit/4d70a88abd5d7ed1ff566fad60bb16477f747580))
+* version bump test ([d408d47](https://github.com/JasonSun0593/deployment-new-one-branch/commit/d408d47de7889f53c694962031ee7d38e127586b))
+* version bump test ([f3725ea](https://github.com/JasonSun0593/deployment-new-one-branch/commit/f3725ea0484b234644143764c14d973a727fc90f))
+
+
+### Bug Fixes
+
+* modify inital version ([f6bb503](https://github.com/JasonSun0593/deployment-new-one-branch/commit/f6bb503a612c4f5adad8017c55a2195ce6de3c81))
+* modify inital version ([5725ec9](https://github.com/JasonSun0593/deployment-new-one-branch/commit/5725ec9d5816112820de70f0ce7bcb944361f301))
+* set init ver with rc.1 suffix ([6ed0dfe](https://github.com/JasonSun0593/deployment-new-one-branch/commit/6ed0dfe5a22d9cb38c8d287f610a4bdbd1ae7de5))
+* set init ver with rc.1 suffix ([590cf6d](https://github.com/JasonSun0593/deployment-new-one-branch/commit/590cf6d409ec4c2588cc281c82f194ae6a9dd0d2))
+
 ## [0.1.0-rc](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.0.1...v0.1.0-rc) (2025-07-24)
 
 
