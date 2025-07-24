@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.0-rc.3](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc.2...v0.1.0-rc.3) (2025-07-24)
+
+
+### Bug Fixes
+
+* remove rc suffix in manifest ([3170e69](https://github.com/JasonSun0593/deployment-new-one-branch/commit/3170e692e91d387965b1977cf216e0d01d590956))
+* remove rc suffix in manifest ([b6c0876](https://github.com/JasonSun0593/deployment-new-one-branch/commit/b6c087649e1158ff184359b84965b4a5464d1df6))
+* try use boostrap ([93c12de](https://github.com/JasonSun0593/deployment-new-one-branch/commit/93c12ded07e34017e3a9c8130a8165febab3139f))
+* try use boostrap ([2785249](https://github.com/JasonSun0593/deployment-new-one-branch/commit/2785249c91f5007160986db13da20785c97a4606))
+
 ## [0.1.0-rc](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.0.1...v0.1.0-rc) (2025-07-24)
 
 
