@@ -1,10 +1,21 @@
 name: Final Release
 
 on:
-  release:
-    types: [published,prereleased,created,released]
+  # Trigger when the main release workflow completes
+  workflow_run:
+    workflows: ["Release"]
+    types: [completed]
+    branches: [develop]
+  
+  # Manual trigger for testing/emergency use
+  workflow_dispatch:
+    inputs:
+      force_final_release:
+        description: 'Force create final release from latest RC'
+        required: false
+        default: 'false'
+        type: boolean
 
-# The different jobs of this workflow need the following permissions
 permissions:
   contents: write
   pull-requests: write
@@ -12,32 +23,74 @@ permissions:
   actions: read
 
 jobs:
-  # Only run for RC releases to create final release PR
+  check-for-rc:
+    name: Check for RC Release
+    runs-on: ubuntu-latest
+    outputs:
+      should_create_final: ${{ steps.check.outputs.should_create }}
+      latest_rc_tag: ${{ steps.check.outputs.latest_rc_tag }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for latest RC release
+        id: check
+        run: |
+          # Get the latest tag that contains 'rc'
+          LATEST_RC=$(git tag -l "*rc*" | sort -V | tail -1)
+          
+          if [ -n "$LATEST_RC" ]; then
+            echo "Found RC release: $LATEST_RC"
+            echo "should_create=true" >> $GITHUB_OUTPUT
+            echo "latest_rc_tag=$LATEST_RC" >> $GITHUB_OUTPUT
+          else
+            echo "No RC release found"
+            echo "should_create=false" >> $GITHUB_OUTPUT
+          fi
+
   create-final-release-pr:
     name: Create Final Release Pull Request
     runs-on: ubuntu-latest
-    if: ${{ contains(github.event.release.tag_name, 'rc') }}
+    needs: [check-for-rc]
+    if: ${{ needs.check-for-rc.outputs.should_create == 'true' || github.event.inputs.force_final_release == 'true' }}
+    outputs:
+      releases_created: ${{ steps.release.outputs.releases_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Update release manifest to remove RC
+        run: |
+          # Read the current manifest and remove any RC version references
+          if [ -f ".github/release-manifest.json" ]; then
+            # Create a clean version without RC suffix
+            sed -i 's/-rc[0-9]*//g' .github/release-manifest.json
+            echo "Updated manifest file:"
+            cat .github/release-manifest.json
+          fi
+
       - name: Create Final Release PR
+        id: release
         uses: googleapis/release-please-action@v4.2.0
         with:
           config-file: ".github/release-config.json"
           manifest-file: ".github/release-manifest.json"
           #token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
 
-  # Create the final release when the release PR is merged
   final-release:
-    name: Create Final Release
+    name: Handle Final Release
     runs-on: ubuntu-latest
-    if: ${{ !contains(github.event.release.tag_name, 'rc') }}
+    needs: [create-final-release-pr]
+    if: ${{ needs.create-final-release-pr.outputs.releases_created == 'true' }}
     steps:
-      - name: Final Release Step
+      - name: Final Release Created
         run: |
-          echo "Final release created: ${{ github.event.release.tag_name }}"
+          echo "Final release created: ${{ needs.create-final-release-pr.outputs.tag_name }}"
 
       - name: Post Release Steps
         run: |
           echo "Running post-release steps!"
+          echo "Release tag: ${{ needs.create-final-release-pr.outputs.tag_name }}"
