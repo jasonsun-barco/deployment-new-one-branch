@@ -1,0 +1,44 @@
+name: Final Release
+
+on:
+  # Trigger when a prerelease (RC) is published
+  release:
+    types: [released]
+
+# The different jobs of this workflow need the following permissions
+permissions:
+  contents: write
+  pull-requests: write
+  repository-projects: read
+  actions: read
+
+jobs:
+  # Only run for RC releases to create final release PR
+  create-final-release-pr:
+    name: Create Final Release Pull Request
+    runs-on: ubuntu-latest
+    if: ${{ contains(github.event.release.tag_name, 'rc') }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Final Release PR
+        uses: googleapis/release-please-action@v4.2.0
+        with:
+          config-file: ".github/release-config.json"
+          manifest-file: ".github/release-manifest.json"
+          #token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
+
+  # Create the final release when the release PR is merged
+  final-release:
+    name: Create Final Release
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.release.tag_name, 'rc') }}
+    steps:
+      - name: Final Release Step
+        run: |
+          echo "Final release created: ${{ github.event.release.tag_name }}"
+
+      - name: Post Release Steps
+        run: |
+          echo "Running post-release steps!"
