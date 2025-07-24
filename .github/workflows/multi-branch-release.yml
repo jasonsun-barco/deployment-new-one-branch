@@ -42,11 +42,11 @@ jobs:
               echo "release-type=rc" >> $GITHUB_OUTPUT
               ;;
             beta)
-              echo "config-file=release-please-beta.json" >> $GITHUB_OUTPUT
+              echo "config-file=release-please-config.json" >> $GITHUB_OUTPUT
               echo "release-type=beta" >> $GITHUB_OUTPUT
               ;;
             alpha)
-              echo "config-file=release-please-alpha.json" >> $GITHUB_OUTPUT
+              echo "config-file=release-please-config.json" >> $GITHUB_OUTPUT
               echo "release-type=alpha" >> $GITHUB_OUTPUT
               ;;
             *)

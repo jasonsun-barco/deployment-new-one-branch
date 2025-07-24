@@ -1,11 +1,12 @@
-name: Release Please
+name: Release Please (DISABLED - Use multi-branch-release.yml instead)
 
+# This workflow is disabled. Use multi-branch-release.yml for all branches.
 on:
-  push:
-    branches: [develop]
-  pull_request:
-    types: [closed]
-    branches: [develop]
+  workflow_dispatch:  # Only manual trigger
+    inputs:
+      dummy:
+        description: 'This workflow is disabled'
+        required: false
 
 permissions:
   contents: write
