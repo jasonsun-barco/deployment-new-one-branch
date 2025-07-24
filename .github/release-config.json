@@ -10,7 +10,9 @@
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
       "prerelease": false,
-      "include-component-in-tag": false
+      "prerelease-type": "",
+      "include-component-in-tag": false,
+      "bootstrap-sha": ""
     }
   }
 }
