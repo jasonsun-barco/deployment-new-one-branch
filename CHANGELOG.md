@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0-rc](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v2.0.0...v2.1.0-rc) (2025-07-25)
+
+
+### Features
+
+* try commit with new ver ([3dc12db](https://github.com/JasonSun0593/deployment-new-one-branch/commit/3dc12db65996af78e12b57fbf21aa730c4e2a76f))
+
+
+### Miscellaneous Chores
+
+* update release manifest ([548eba2](https://github.com/JasonSun0593/deployment-new-one-branch/commit/548eba285cf486af06dacb38b7577348d64ac1c8))
+
 ## [2.0.0](https://github.com/JasonSun0593/deployment-new-one-branch/compare/v0.1.0-rc...v2.0.0) (2025-07-25)
 
 
