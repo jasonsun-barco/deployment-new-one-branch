@@ -3,7 +3,7 @@ name: Release
 on:
   # Triggers the workflow on push events but only for default and protected branches
   push:
-    branches: [develop]
+    branches: [ "main" ]
 
 # The different jobs of this workflow need the following permissions
 permissions:
@@ -64,16 +64,23 @@ jobs:
         run: |
           echo "Prerelease Tests"
 
-  # This job only creates the Prerelease (RC)
+  # This job runs creates the Prerelease and creates a subsequent Release Pull Request
   prerelease:
-    name: Create Prerelease
+    name: Create Prerelease and Release Pull Request
     runs-on: ubuntu-latest
     if: ${{ needs.prerelease-prep.outputs.releases_created == 'true' && contains(needs.prerelease-prep.outputs.tag_name, 'rc') }}
     needs: [ prerelease-prep ]
     steps:
       - name: Pre Release Step
         run: |
-          echo "Running pre-release step for RC: ${{ needs.prerelease-prep.outputs.tag_name }}"
+          echo "Running pre-release step!"
+
+      - name: Run release release-please
+        uses: googleapis/release-please-action@v4.2.0
+        with:
+          config-file: ".github/release-config.json"
+          manifest-file: ".github/release-manifest.json"
+          #token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
 
   # This job runs post-prerelease steps
   post-prerelease:
@@ -85,7 +92,7 @@ jobs:
         run: |
           echo "Running post-prerelease steps!"
 
-  # This job creates the final release (non-RC)
+  # This job creates the final release and Syncs the prerelease manifest
   release:
     name: Create Release
     runs-on: ubuntu-latest

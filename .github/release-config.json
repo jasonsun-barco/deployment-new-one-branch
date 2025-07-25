@@ -1,18 +1,27 @@
 {
-  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "node",
+  "changelog-sections": [
+    { "type": "feat", "hidden": false, "section": "Features" },
+    { "type": "fix", "hidden": false, "section": "Bug Fixes" },
+    { "type": "refactor", "hidden": false, "section": "Code Refactoring" },
+    { "type": "chore", "hidden": false, "section": "Miscellaneous Chores" },
+    { "type": "build", "hidden": false, "section": "Build System and Dependencies" },
+    { "type": "docs", "hidden": false, "section": "Docs" }
+  ],
   "packages": {
     ".": {
-      "changelog-path": "CHANGELOG.md",
-      "release-type": "node",
-      "versioning": "default",
-      "initial-version": "0.0.1",
-      "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": true,
-      "draft": false,
-      "prerelease": false,
-      "prerelease-type": "",
-      "include-component-in-tag": false,
-      "bootstrap-sha": ""
+      "type": "generic",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "library/build.gradle.kts"
+        },
+        {
+          "type": "json",
+          "path": ".github/prerelease-manifest.json",
+          "jsonpath": "$[\".\"]"
+        }
+      ]
     }
   }
 }
